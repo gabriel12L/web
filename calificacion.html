@@ -1,0 +1,90 @@
+<html>
+<head><title>Calificaciones</title></head>
+<center><img src="gn.PNG"height="121" width="800" >
+
+
+<center><font color="black" size="4" face="tahoma"> COLEGIO DE ESTUDIOS CIENTÍFICOS Y TECNOLÓGICOS DEL ESTADO DE MÉXICO. <br>PLANTEL IXTLAHUACA</center></font>
+
+<center><font face="broadway"><font size="3">Gabriel Piña Atanacio     Grupo:402    NL:29</font size></font face></center>
+<center><font face="broadway"><font size="3">Carrera: Programación, Santa Ana Ixtlahuaca a 28 de febrero del 2024,10:10</font size></center></font face><br>
+
+<script>
+
+function sumar(){
+var n1=parseFloat(document.Myform.txtNumero1.value);
+var n2=parseFloat(document.Myform.txtNumero2.value);
+var n3=parseFloat(document.Myform.txtNumero3.value);
+var n4=parseFloat(document.Myform.txtNumero4.value);
+var n5=parseFloat(document.Myform.txtNumero5.value);
+var n6=parseFloat(document.Myform.txtNumero6.value);
+var n7=parseFloat(document.Myform.txtNumero7.value);
+
+var n8=parseFloat(document.Myform.txtResul.value=(n1+n2+n3+n4+n5+n6+n7)/7);
+}
+</script>
+
+
+<body>
+<center><table width="800" border="0">
+<form name="Myform">
+<tr>
+<th colspan="3"><center>CALIFICACIONES DE UN ALUMNO</center></th>
+</tr>
+<tr>
+<td width="300"><label><strong>Cálculo diferencial:</strong></label></td>
+<td width="300"><input type="text" name="txtNumero1"></td>
+<td width="200" rowspan="8"><img src="cal.jpeg " width="200" height="200"></td>
+ </td>
+</tr>
+
+<tr>
+<td width="300"><label><strong>Inglés IV:</strong></label></td>
+<td width="300"><input type="text" name="txtNumero2"></td>
+</tr>
+
+<tr>
+<td width="300"><label><strong>Física:</strong></label></td>
+<td width="300"><input type="text" name="txtNumero3"></td>
+</tr>
+
+<tr>
+<td width="300"><label><strong>Ecología:</strong></label></td>
+<td width="300"><input type="text" name="txtNumero4"></td>
+</tr>
+
+<tr>
+<td width="300"><label><strong>Submódulo I:</strong></label></td>
+<td width="300"><input type="text" name="txtNumero5"></td>
+</tr>
+
+<tr>
+<td width="300"><label><strong>Submódulo II:</strong></label></td>
+<td width="300"><input type="text" name="txtNumero6"></td>
+</tr>
+
+<tr>
+<td width="300"><label><strong>Submódulo III:</strong></label></td>
+<td width="300"><input type="text" name="txtNumero7"></td>
+</tr>
+
+<tr>
+<td width="300"><label><strong>Su calificación es:</strong></label></td>
+<td width="300"><input type="text" name="txtResul"></td>
+</tr>
+
+
+<tr>
+<td colspan="3" aling"center"><input type="button" width="100" value="Calcular calificación" onclick="sumar()"></td>
+</tr>
+
+</from>
+</table>
+
+
+
+<footer>
+<center><img src="aa.png" width="800" height="200"></center>
+
+</footer>
+</body>
+</html>
